@@ -1,0 +1,123 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Resume</title>
+
+
+	<link rel="stylesheet" href="css/app.min.css">
+	<script src="js/vendor/modernizr.min.js"></script>
+
+	<!-- Typekit -->
+	<script src="//use.typekit.net/zif4lxr.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body class="resume">
+
+	<!-- Header -->
+	<section id="resume-header" class="row">
+
+		<div class="column small-12 medium-7">
+			<h1 id="name">Ryan K. Davidson</h1>
+			<h2 id="tagline">Interactive Design &amp; Development</h2>
+		</div>
+		<div class="column small-12 medium-5">
+			<ul class="contact-info">
+				<li>ryan@rkdavidson.com</li>
+				<li>(513) 604-8485</li>
+				<li>51557 Stern Ln, Chesterfield MI 48051</li>
+			</ul>
+		</div>
+
+	</section>
+
+	<!-- Main (Left Column) -->
+	<section id="resume-content" class="row">
+
+		<!-- Experience (Jobs List) -->
+		<div class="column experience small-12 medium-7">
+
+			<h3>Experience</h3>
+			<hr/>
+			<section class="row jobs">
+			</section>
+		</div>
+
+		<!-- Education (Right Column) -->
+		<div class="column education small-12 medium-4">
+			<h3>Education</h3>
+			<hr/>
+			<ul class="college no-list-style">
+				<li><strong>BFA Graphic Design</strong> double-major with <strong>Interactive Media Studies</strong></li>
+				<li><em>Miami University</em></li>
+				<li>2007 &ndash; 2011 <em class="bull">&bull;</em> Oxford, Ohio</li>
+			</ul>
+
+			<h4>Languages</h4>
+			<ul class="languages">
+				<li>JavaScript</li>
+				<li>ActionScript 3,2</li>
+				<li>HTML5, CSS3</li>
+				<li>PHP, MySQL</li>
+				<li>Ruby on Rails</li>
+				<li>Processing</li>
+				<li>Linux/Shell</li>
+				<li>Python</li>
+			</ul>
+
+			<h4>Software & Hardware</h4>
+			<ul class="tech">
+				<li>Adobe Creative Suite</li>
+				<li>Arduino, Basic Electronics</li>
+				<li>Android, iOS (via Adobe AIR)</li>
+				<li>Microsoft Kinect</li>
+				<li>Leap Motion</li>
+				<li>Oculus Rift</li>
+				<li>Myo Armband</li>
+				<li>Melon Brain Monitor</li>
+				<li>Unix-Based Systems</li>
+			</ul>
+
+			<h5>Connect</h5>
+			<hr class="short-rule" />
+			<ul class="connect">
+				<li>LinkedIn.com/in/ryankdavidson</a></li>
+				<li>Twitter.com/rkdd</a></li>
+				<li>Delicious.com/rkdd</a></li>
+				<li>YouTube.com/ryanrkd2112</a></li>
+			</ul>
+
+		</div>
+
+	</section>
+
+	<!-- Footer -->
+	<footer class="row">
+		<div class="column small-12">
+			<p><em>References available upon request</em></p>
+		</div>
+	</footer>
+
+
+	<!-- TEMPLATE :: Job -->
+	<script id="jobTemplate" type="text/x-handlebars-template">
+		<div class="column job small-12">
+			<h4 class="job-heading"><strong class="job-title">{{role}}</strong> &mdash; <span class="job-employer">{{employer}}</span></h4>
+		  	<p class="job-description">{{description}}</p>
+		  	<p class="job-details">{{date}} <em class="bull">&bull;</em> {{location}}</p>
+		</div>
+	</script>
+
+	<!-- ninjs:scripts -->
+	<script src="js/ninjs/application/rkd.js"></script>
+	<script src="js/ninjs/application/portfolio.js"></script>
+	<!-- endninjs -->
+
+	<script src="js/vendor/libraries.min.js"></script>
+	<script src="js/vendor/foundation.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+</html>

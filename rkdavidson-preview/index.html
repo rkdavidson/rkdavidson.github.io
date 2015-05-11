@@ -1,0 +1,111 @@
+<!doctype html>
+<html class="no-js" lang="en" >
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>RKD Page</title>
+
+
+	<link rel="stylesheet" href="css/app.min.css">
+	<script src="js/vendor/modernizr.min.js"></script>
+
+	<!-- Typekit -->
+	<script src="//use.typekit.net/zif4lxr.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
+</head>
+<body>
+
+	<!-- Hero Header -->
+	<header>
+		<div class="row">
+
+			<!-- <div class="hero-text column small-12 small-centered">
+				<div class="show-for-medium-up">
+					<img class="monogram" src="/images/monogram-block.png" />
+				</div>
+
+				<div class="show-for-small-only">
+					<img class="monogram" src="/images/monogram-tag.png" />
+				</div>
+
+				<h1>Ryan K. Davidson</h1>
+				<h2>Interactive Media Designer &amp; Developer</h2>
+			</div> -->
+
+			<!-- <div class="hero-text column small-12">
+				<h1 class="monogram"><span class="">RKD</span><br/><span class="label">ABOUT&emsp;</span></h1>
+				<h1 class="name">Ryan K. Davidson</h1>
+				<h2 class="title">Interactive Media Designer &amp; Developer</h2>
+			</div> -->
+
+			<h1 class="monogram"><span class="">RKD</span></h1>
+
+			<div class="hero-text column small-12 small-centered text-center">
+				<h1 class="name">Ryan K. Davidson</h1>
+				<h2 class="title">Interactive Media Designer &amp; Developer</h2>
+				<!-- <h3>Selected Works <span class="bull">&bull;</span> Spring, 2015</h3> -->
+			</div>
+
+			<div class="caption text-right">John Muir Trail, 2014</div>
+		</div>
+	</header>
+
+	<!-- Sticky Header -->
+	<div id="stickyickyHeader" class="debug">
+		<div class="row">
+
+			<nav class="column small-6">
+				<li><a href="/about.html" title="About Ryan Davidson">About</a></li>
+				<li><a href="/resume.html" title="View Resume">View Resume</a></li>
+				<li><a href="mailto:ryan@rkdavidson.com" title="Contact Ryan">Contact</a></li>
+			</nav>
+
+		</div>
+	</div>
+
+	<section class="title-row">
+		<div class="row">
+			<div class="column small-12 text-center">
+				<h1>Selected Works</h1>
+				<h2>Spring, 2015</h2>
+			</div>
+		</div>
+	</section>
+
+	<!-- Projects List -->
+	<section class="projects row">
+	</section>
+
+	<!-- Footer -->
+	<footer class="row">
+		<section class="column small-12">
+			<p class="copyright">&copy 2015 Ryan Davidson | <strong>Please</strong> do not share this link publicly.</p>
+		</section>
+	</footer>
+
+	<!-- TEMPLATE :: Project -->
+	<script id="projectTemplate" type="text/x-handlebars-template">
+		<div class="column small-12 {{id}}">
+			<img src="/images/{{id}}-hero.png" />
+			<h2>{{title}}</h2>
+		  	<p class="blurb">{{{blurb}}}</p>
+		  	<ul>
+		  		{{#each bullets}}
+		  			<li>{{{this}}}</li>
+		  		{{/each}}
+		  	</ul>
+		</div>
+	</script>
+
+	<!-- ninjs:scripts -->
+	<script src="js/ninjs/application/rkd.js"></script>
+	<script src="js/ninjs/application/portfolio.js"></script>
+	<!-- endninjs -->
+
+	<script src="js/vendor/libraries.min.js"></script>
+	<script src="js/vendor/foundation.min.js"></script>
+	<script src="js/app.min.js"></script>
+</body>
+</html>
